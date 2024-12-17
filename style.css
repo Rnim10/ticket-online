@@ -1,0 +1,211 @@
+body{
+    background-color: rgb(15, 15, 15);
+    margin: auto;
+    padding: auto;
+
+
+}
+nav{
+    box-shadow: 30px black;
+}
+nav .container-fluid .navbar-brand strong{
+    color: rgb(255, 194, 72);
+    font-style: italic;
+}
+.carousel-inner .carousel-item{
+    margin-top: px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+}
+.carousel-inner .carousel-item img{
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: px;
+    width: px;
+
+    
+}
+.card-container{
+    display: flex;
+    margin: auto;
+    background-color: ;
+   
+}
+.card{
+    min-width: px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.col .card-body{
+    justify-content: center;
+}
+.container .clearfix{
+    text-align: center;
+}
+.card-image{
+    width: 100%;
+    display: flex;
+}
+.card-image img{
+    width: 20%;
+    border-radius: 10px;
+    margin: 2px 2px;
+}
+.container .huruf2{
+    color: rgb(218, 214, 214);
+}
+
+.card button{
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(139, 138, 136);
+}
+.container{
+    padding-left: 2px;
+    background-color: transparent;
+    border-radius: 20px ;
+    box-shadow: 20px white;
+    justify-content: center;
+    flex: 1;
+}
+
+.form-control{
+    width: 350px;
+    border-radius: 20px;
+}
+.container .card{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: ;
+    
+
+}
+.container .huruf1{
+    color: rgba(255, 174, 0, 0.842);
+    padding-left: 9px;
+    padding-top: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    font-size: 19px;
+
+
+}
+.container .card img{
+    border-radius: 15px;
+    display: flex;
+}
+.horizontal-scroll{
+    overflow-x: scroll;
+}
+.horizontal-scroll::-webkit-scrollbar{
+    display: none;
+}
+.card-bawah .card{
+    width: 50%;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 10px;
+}
+.card-bawah{
+    display: flex;
+    gap: 1rem;
+    padding: 10px 10px;
+}
+.card-bawah .card img{
+    border-radius: 10px;
+    display: flex;
+}
+.horizontal-scroll .card-bawah{
+    overflow-x: scroll;
+}
+.product{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.product-category{
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+.product-container{
+    padding-left: 20px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 100px;
+
+}
+.product-container::-webkit-scrollbar{
+    display: none;
+}
+.product-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: ;
+    margin-right: 40px ;
+    background-color: white;
+    border-radius: 15px;
+}
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow:hidden;
+    border-radius: 15px;
+    gap: 1rem;
+}
+.product-thumb{
+    width: 100%;
+    height: 100%;
+}
+.product-brand{
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 2px;
+    font-style: bold;
+}
+.product-info{
+    padding-left: 5%;
+    padding-bottom: 8px;
+}
+.price{
+    border-radius: 20px;
+    border: none;
+    padding-bottom: 5px;
+    background-color: rgba(0, 132, 255, 0.877);
+}
+.product-description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.movie-category{
+    color: aliceblue;
+    padding-left: 60px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.movie-category-satu{
+    color: aliceblue;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
